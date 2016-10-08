@@ -1,0 +1,24 @@
+{
+  "name": "sanji",
+  "version": "1.0.0",
+  "description": "a backend management platform with polymer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sqhtiamo/sanji.git"
+  },
+  "keywords": [
+    "frontend",
+    "backstage",
+    "polymer"
+  ],
+  "author": "cloughzhang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sqhtiamo/sanji/issues"
+  },
+  "homepage": "https://github.com/sqhtiamo/sanji#readme"
+}

@@ -1,0 +1,34 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+`sanji-element`
+A Backstage Management Platform
+
+@demo demo/index.html 
+-->
+
+<dom-module id="sanji-element">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]</h2>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'sanji-element',
+
+      properties: {
+        prop1: {
+          type: String,
+          value: 'sanji-element',
+        },
+      },
+
+    });
+  </script>
+</dom-module>
